@@ -19,6 +19,8 @@
     "dist/",
     "build/",
     "docs/",
-    "webpack.**.js"
+    "webpack.common.js",
+    "webpack.dev.js",
+    "webpack.prod.js"
   ]
 }
