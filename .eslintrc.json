@@ -18,6 +18,7 @@
   "ignorePatterns": [
     "dist/",
     "build/",
-    "docs"
+    "docs/",
+    "webpack.**.js"
   ]
 }
