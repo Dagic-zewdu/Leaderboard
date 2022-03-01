@@ -8,25 +8,6 @@
 
 Additional description about the project and its features.
 
-
-# Usage
-
-To build the project run:
-
-```
-$ npm install
-$ npm run build
-```
-
-## Development
-
-In development environment use the following command:
-
-```
-$ npm install
-$ npm run dev
-```
-
 ## Tools used
 
 - HTML
