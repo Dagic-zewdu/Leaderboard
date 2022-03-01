@@ -102,7 +102,6 @@ npx hint .
 npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
 
 ```
-
 ##### For validation detection using Eslint Run
 
 ```
