@@ -1,10 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Title
+# Leader board
+The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external [Leaderboard API service](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3).
 
-> Project description paragraph with 30 words. 
-
-![screenshot]()
+![](./Screen-Shot.png)
 
 Additional description about the project and its features.
 
@@ -16,10 +15,10 @@ Additional description about the project and its features.
 - Git
 - npm
 - webpack
-
+- Gitflow
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://dagic-zewdu.github.io/Leaderboard/)
 
 ## Built With
 
