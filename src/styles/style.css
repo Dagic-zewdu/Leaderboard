@@ -97,3 +97,26 @@ body {
 .btn-submit {
   padding: 10px;
 }
+
+.center {
+  text-align: center;
+}
+
+.success {
+  text-align: center;
+   color: green;
+}
+
+.error {
+  text-align: center;
+   color: red;
+}
+
+.process {
+    text-align: center;
+    color: blue;
+}
+
+.none {
+  display: none;
+}

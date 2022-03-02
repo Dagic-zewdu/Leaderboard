@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Leader board</title>
 </head>
 
 <body>
@@ -18,28 +18,17 @@
                     <button class="btn-refresh">Refresh</button>
                 </div>
                 <ul class="score-list">
-                    <li class="score-item bg-light">
-                        <p class="score-description">Name : ABC</p>
-                    </li>
-                    <li class="score-item">
-                        <p class="score-description">Name : BCD</p>
-                    </li>
-                    <li class="score-item bg-light">
-                        <p class="score-description">Name : DEF</p>
-                    </li>
-                    <li class="score-item">
-                        <p class="score-description">Name : DEF</p>
-                    </li>
-                    <li class="score-item bg-light">
-                        <p class="score-description">Name : DEF</p>
-                    </li>
+
                 </ul>
             </div>
             <div class="form-container">
                 <h2 class="center">Add your scores</h2>
                 <form class="add-score-form">
-                    <input type="text" class="score-input">
-                    <input type="text" class="score-input my-10">
+                    <input type="text" id="user" placeholder="username" class="score-input">
+                    <input type="number" id="score" placeholder="score" class="score-input my-10">
+                    <p class="process none"></p>
+                    <p class="success none"></p>
+                    <p class="error none"></p>
                     <button class="btn-submit">Submit</button>
                 </form>
             </div>
