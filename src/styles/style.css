@@ -1,0 +1,99 @@
+body {
+  background-color: #eee;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.card {
+  display: flex;
+  width: 80%;
+  padding: 10px;
+  background-color: white;
+}
+
+.recent-scores-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  overflow: scroll;
+}
+
+.form-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.score-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  border: 2px solid #111;
+  height: 70vh;
+  overflow: scroll;
+  padding: 10px;
+}
+
+.score-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg-light {
+  background-color: #eee;
+}
+
+.score-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid #eee;
+  box-shadow: 10px 10px 10px 10px #eee;
+  padding: 5px;
+}
+
+.add-score-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.score-input {
+  width: 90%;
+  padding: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.btn-submit {
+  padding: 10px;
+}
