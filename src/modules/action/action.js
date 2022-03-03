@@ -13,9 +13,9 @@ export const getGames = async () => {
 
 export const addGames = async (data) => {
   try {
-    renderProcess(Process, 'saving...', [error, success]);
+    renderProcess(Process, 'Saving...', [error, success]);
     await httpCommon.post('/scores', data);
-    renderProcess(success, 'saved successfully', [Process, error]);
+    renderProcess(success, 'Saved successfully', [Process, error]);
     setTimeout(() => {
       renderProcess(success, '', [Process, error, success]);
     }, 1000);
