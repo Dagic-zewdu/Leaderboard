@@ -90,10 +90,29 @@ body {
   padding: 10px;
 }
 
+.btn-submit {
+  padding: 10px;
+}
+
 .center {
   text-align: center;
 }
 
-.btn-submit {
-  padding: 10px;
+.success {
+  text-align: center;
+  color: green;
+}
+
+.error {
+  text-align: center;
+  color: red;
+}
+
+.process {
+  text-align: center;
+  color: blue;
+}
+
+.none {
+  display: none;
 }

@@ -19,6 +19,7 @@
     "dist/",
     "build/",
     "docs/",
+    "src/modules/action/",
     "webpack.common.js",
     "webpack.dev.js",
     "webpack.prod.js"
